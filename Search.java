@@ -12,7 +12,7 @@ class Search {
         for (int j = 0; j < n; j++)
             a[j] = rand.nextInt(10);
         
-        System.out.print("配列aの全要素の値\n{ ");
+        System.out.print("配列aの全要素の値\n{ "); // 配列の全要素を表示
         for (int j = 0; j < n; j++)
             System.out.print(a[j] + " ");
         System.out.println("}");
