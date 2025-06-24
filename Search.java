@@ -2,6 +2,13 @@ import java.util.Random;
 import java.util.Scanner;
 
 class Search {
+    static void printArray(int[] a) {
+    System.out.print("{ ");
+    for (int j = 0; j < a.length; j++)
+        System.out.print(a[j] + " ");
+    System.out.println("}");
+    }
+
     public static void main(String[] args) {
         Random rand = new Random();
         Scanner stdIn = new Scanner(System.in);
@@ -12,10 +19,8 @@ class Search {
         for (int j = 0; j < n; j++)
             a[j] = rand.nextInt(10);
         
-        System.out.print("配列aの全要素の値\n{ "); // 配列の全要素を表示
-        for (int j = 0; j < n; j++)
-            System.out.print(a[j] + " ");
-        System.out.println("}");
+        System.out.print("配列aの全要素の値\n"); // 配列の全要素を表示
+        printArray(a);
         
         System.out.print("探す数値：");
         int key = stdIn.nextInt();
