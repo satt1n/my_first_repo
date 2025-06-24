@@ -19,7 +19,7 @@ class Search {
         for (int j = 0; j < n; j++)
             a[j] = rand.nextInt(10);
         
-        System.out.print("配列aの全要素の値\n"); // 配列の全要素を表示
+        System.out.print("配列aの中身を出力します\n"); // 配列の全要素を表示
         printArray(a);
         
         System.out.print("探す数値：");
