@@ -8,3 +8,10 @@
 ```bash
 javac Search.java
 java Search
+
+## コミット履歴の概要
+
+- initial commit: 検索プログラムとREADME、.gitignoreを追加
+- additional function: 出現回数のカウント機能を追加
+- add coment: コメントをコードに追加
+- methodization: 配列表示処理を関数として分離（refactorブランチ）
