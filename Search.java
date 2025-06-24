@@ -29,5 +29,11 @@ class Search {
             System.out.println("それはa[" + i + "]にあります。");
         else
             System.out.println("それはありません。");
+
+        int count = 0;
+        for (int j = 0; j < n; j++)
+            if (a[j] == key) count++;
+        
+        System.out.println("その数は " + count + " 回出現します。");
     }
 }
